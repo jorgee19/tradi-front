@@ -1,0 +1,56 @@
+.group-section .icon {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    margin-top: -40px;
+}
+
+.group-section{
+    text-align: center;
+}
+
+.single-group{
+    /*border-radius: 15px;*/
+    border-bottom: 1px solid #787878;
+}
+
+.group-section .add-button .icon{
+    background-color: lawngreen;
+    margin-top: 10px;
+}
+
+
+.buttons-group{
+    display: block;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.add-button {
+    display: inline-block;
+}
+
+.edit-button{
+    display: block;
+    float: right;
+    margin-right: 5px;
+}
+ 
+.remove-button{
+    display: block;
+    float: right;
+}
+
+.card-list h2{
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.group-section{
+    min-height: 60vh;
+}

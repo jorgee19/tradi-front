@@ -1,0 +1,74 @@
+.map__bottom-bar {
+  display: flex;
+  border-bottom: 1px solid #00000035;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 55px;
+}
+
+.map__button.icon {
+  width: 50%;
+  border-right: 1px solid #00000035;
+}
+
+.map__button:last-child {
+  border-right: 0px;
+}
+
+.map__button svg.svg-inline--fa {
+  width: 25px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  background-color: #0000;
+  transition: .5s background-color;
+}
+
+.map__button svg path {
+  fill: #fff;
+  transition: .25s fill;
+}
+
+.map__button:hover svg path{
+  fill: #000;
+}
+
+.map-section{
+  padding-bottom: 55px;
+}
+
+.map__button{
+  transition: .25s background-color;
+}
+
+.map__button:hover {
+  background-color: #6ab7ff;
+  box-shadow:  2px 2px 5px #000a;
+}
+
+.school-image img {
+  width: 80%;
+  min-width: 320px;
+  height: auto;
+}
+
+.school-image {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+
+.map-container > img {
+  max-width: 100%;
+}
+
+
+.google-maps-wrapper > .mapview{ 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 

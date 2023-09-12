@@ -1,0 +1,83 @@
+.emergency-section-form{
+  display:block;
+  background-color: #FFF;
+  position: fixed;
+  width: 80vw;
+  height: 70vh;
+  z-index: 21;
+  left: calc(50% - 40vw);
+  top: calc(50% - 35vh);
+  border-radius: 10px;
+  padding: 0px;
+}
+.emergency-section-selection{
+  display:block;
+  background-color: #FFF;
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  z-index: 21;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  border-radius: 10px;
+  padding: 0px;
+}
+.mapview {
+  width: 200%;
+  height: 40vh;
+  margin-left: -50%;
+}
+
+
+.overlay-gray{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #0007;
+    z-index: 20;
+}
+.emergency-section-selection  .emergency-place-selection{
+  position: fixed;
+  width: 200px;
+  height: 40px;
+  top: 40%;
+}
+
+.emergency-selection-button:hover{
+    background-color: #6ab7ff;
+    color: #000;
+    /*box-shadow:  2px 2px 5px #000a;*/
+}
+
+.form-tradi__scrollable{
+  overflow: scroll;
+}
+
+.emergency-selection-button {
+    background-color: #005cb2;
+    width: 70px;
+    height: 40px;
+    /*transition:.25s background-color, .25s color;*/
+    color:#fff;
+    display: block;
+    float: left;
+    margin:0px 0px 0px 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.emergency-title h4{
+  text-align: center;
+  color: #d32f2f;
+}
+
+.emergency-send-selection-button {
+    background-color: #005cb2;
+    width: 70px;
+    height: 20px;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 10px;
+}

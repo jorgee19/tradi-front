@@ -1,0 +1,77 @@
+.single-profile {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #0007;
+    z-index: -2;
+}
+
+.single-profile-container {
+    background: #fff;
+    padding: 15px 10px;
+}
+
+.row-profile {
+    display: flex;
+}
+
+.row-profile.firs-row{
+    align-items: center;
+}
+
+.image-profile {
+    max-width: 100px;
+    display: block;
+    margin-right: 25px;
+}
+
+.user-info{
+    line-height: 1.2;
+}
+.user-info .name {
+    font-weight: 700;
+    font-size: 120%
+}
+
+.user-info .email a,
+.phone-text a{
+    font-size: 90%;
+    font-weight: 100;
+    color: #000;
+    text-decoration: none;
+}
+
+/*.update-data {
+    width: 33%;
+}
+
+.phone-text {
+    width: 33%;
+}
+
+.send-message {
+    width: 33%;
+}*/
+
+.single-profile-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-profile.second-row {
+    margin-top: 25px;
+    justify-content: space-between;
+}

@@ -1,0 +1,46 @@
+.teacher-container .icon {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    margin-top: -40px;
+}
+
+.teacher-container{
+    text-align: center;
+    color:#FFFFFF
+}
+.info-teacher{
+    text-align: center;
+}
+.single-teacher{
+    /*border-radius: 15px;*/
+    border-bottom: 1px solid #787878;
+}
+
+.teacher-container .add-button .icon{
+    background-color: lawngreen;
+    margin-top: 10px;
+
+    color:#000000
+}
+.buttons-teacher{
+    display: block;
+    padding: 15px;
+
+}
+
+.edit-button{
+    display: block;
+    float: right;
+    margin-right: 5px;
+
+    color:#000000
+}
+.remove-button{
+    display: block;
+    float: right;
+    color:#000000
+}

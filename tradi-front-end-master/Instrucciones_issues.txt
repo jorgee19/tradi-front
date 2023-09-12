@@ -1,0 +1,13 @@
+Cuando tratamos de hacer un commit y luego un push
+se queja de la ultima version que no tienes y tratas de hacer un pull
+entonces pull revisa los conflictos  si los puede reslver solo, los resuelve y te pullea
+
+si no, abres el o los archivos que tienen conflicto
+por ejemplo separandolos de linea
+
+luego haces 
+
+otro commit
+git merge
+y otra vez git push
+voula

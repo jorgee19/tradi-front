@@ -1,0 +1,211 @@
+
+/* # Convenciones
+ * Todo código CSS va a ser escrito con las convenciones BEM, favor de leer las siguientes dos ligas donde explican como funcionan las conveciones.
+ * Fuentes:
+ * https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
+ * https://github.com/airbnb/css
+ */
+
+
+/* ## Colores Primarios y Secundarios
+ * Reglas de CSS que definen los colores seleccionados de la aplicación.
+ * Fuentes:
+ * https://material.io/tools/color/#!/?view.left=1&view.right=0&primary.color=1E88E5&secondary.color=66BB6A&primary.text.color=FAFAFA
+ */
+
+.primary-color {
+  background: #1e88e5;
+  background-color: #1e88e5;
+}
+
+.primary-color--light {
+  background: #6ab7ff;
+  background-color: #6ab7ff;
+}
+
+.primary-color--dark {
+  background: #005cb2;
+  background-color: #005cb2;
+}
+
+.primary-text-color {
+  color: #fafafa;
+}
+
+.secondary-color {
+  background: #66bb6a;
+  background-color: #66bb6a;
+}
+
+.secondary-color--light {
+  background: #98ee99;
+  background-color: #98ee99;
+}
+
+.secondary-color--dark {
+  background: #338a3e;
+  background-color: #338a3e;
+}
+
+.secondary-text-color {
+  color: #000000;
+}
+
+.form-tradi {
+  padding: 15px;
+  max-width: 450px;
+  margin: 0px auto;
+}
+
+.row-form {
+  width: 100%;
+  display: flex;
+}
+
+.form-tradi .cell {
+  margin: 5px 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-tradi .cell input {
+  display: block;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  text-indent: 10px;
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #727272;
+}
+
+.form-tradi .cell input:focus {
+  border-color: #66bb6a;
+  border-bottom-width: 2px;
+  outline: none;
+}
+
+.form-tradi .cell textarea {
+  display: block;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  text-indent: 10px;
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #727272;
+}
+
+.form-tradi .cell textarea:focus {
+  border-color: #66bb6a;
+  border-bottom-width: 2px;
+  outline: none;
+}
+
+.form-tradi .cell p {
+  display: block;
+  padding: 0px 0px 0px 0px;
+  margin:0px;
+  width: 100%;
+}
+.form-tradi .emergency-map div{
+  height: 150px !important;
+}
+
+textarea {
+  resize: none;
+}
+button.button-form {
+  -webkit-appearance: none;
+  background-color: rgba(20, 16, 39, .4);;
+  color: #fff;
+  padding: 10px 25px;
+  border: 1px solid #0001;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 15px;
+  transition: .1s transform;
+  margin: 0px 10px
+}
+
+.form-tradi .button-form.button-form--alt-color {
+  background-color: rgba(76, 188, 195,.3);
+}
+
+ button.button-form:active {
+  transform: scale(.975) translateX(2.5px) translateY(2.5px);
+}
+
+.title-form h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.sub-title-form h3 {
+  color: #FFFFFF;
+}
+
+.principal{
+  padding: 85px 15px 60px;
+}
+.button-section{
+  position: relative;
+  transition: .5s opacity, .5s margin-top;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.button-section button.button-form {
+  margin-bottom: 10px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  flex-basis: 130px;
+}
+
+.show-buttons {
+  opacity: 1;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.hide-buttons {
+  opacity: 0;
+  z-index: -3;
+  margin-top: -30px;
+}
+
+.logo--container {
+  width: 300px;
+  height: unset;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  padding-bottom: 50px;
+}
+
+.logo--container img {
+  width: 80%;
+}
+
+@media only screen and (max-width:300px){
+  .logo--container{
+    width: 90%;
+  }
+}
+
+div.login-page--background{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgb(20,16,39);
+    background: linear-gradient(144deg, rgb(20, 16, 39) 35%, rgb(76, 188, 195) 100%);
+}
+
+.login-screen{
+  width: 100%;
+}

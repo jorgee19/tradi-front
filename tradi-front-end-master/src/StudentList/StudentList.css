@@ -1,0 +1,39 @@
+.header-student-list{
+  border-bottom: 1px solid #787878;
+  text-align: center;
+}
+.new-code-button{
+    width: 33.33%;
+    display: inline-block;
+    text-align: center;
+    color:#fff;
+    background-color: #005cb2;
+    margin-bottom: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 5px;
+}
+.student-card{
+  /*border-radius: 15px;*/
+  border-bottom: 1px solid #787878;
+}
+.student-code{
+    text-align: start;
+}
+
+.student-buttons{
+    display: block;
+    padding: 15px;
+
+}
+.student-buttons .change-button{
+    display: block;
+    float: right;
+    margin-right: 5px;
+}
+.change-teacher{ 
+  display: inline-block;
+}
+.show-student-name{
+  color:#fff
+}

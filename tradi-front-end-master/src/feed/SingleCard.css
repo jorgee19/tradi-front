@@ -1,0 +1,27 @@
+.single-date{
+  color: #FFFFFF;
+}
+
+.single-title {
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+}
+
+.single-description {
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.single-image img{
+    max-height: 250px;
+}
+
+
+.single-card{
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
